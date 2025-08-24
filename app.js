@@ -1285,7 +1285,7 @@ const App = () => {
             ...prev
         ]);
         showSnackbar('스테이킹 완료!');
-    };
+    }; 
 
     const handlePayment = (amount, exchangeRate) => {
         const krwAmount = amount * exchangeRate;
